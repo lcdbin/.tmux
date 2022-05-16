@@ -139,6 +139,9 @@ bind -n M-7 select-window -t 7
 bind -n M-8 select-window -t 8
 bind -n M-9 select-window -t 9
 
+set-option -g renumber-windows off
+
+
 # terminal title
 #   - built-in variables are:
 #     - #{circled_window_index}
